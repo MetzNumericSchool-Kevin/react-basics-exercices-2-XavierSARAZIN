@@ -9,7 +9,7 @@
 
 À chaque finalisation d'exercice, fais un commit avec le titre de l'exercice.\
 Cela me permet de faire un suivi de l'avancement par exercice.\
-Également cela te fais pratiquer GIT, à apprendre -un peu- à faire des commits régulier de ton travail.
+Également cela te fait pratiquer GIT, à apprendre à faire des commits réguliers de ton travail.
 
 ### Exercice 0 : Le composant Section
 
@@ -45,7 +45,7 @@ Dans `App.tsx` :
 
 **Instructions** :
 
-- Créé un dossier `components` pour ranger tous les composants que tu vas créer au fur et à mesure des exercices. **Tu peux y mettre des sous-dossier, plusieurs composants dans le même fichier ou un composant par fichier, c'est comme tu le souhaite je n'oblige rien tant que ça te paraît clair pour toi.**
+- Créé un dossier `components` pour ranger tous les composants que tu vas créer au fur et à mesure des exercices. **Tu peux y mettre des sous-dossier, plusieurs composants dans le même fichier ou un composant par fichier, c'est comme tu le souhaites je n'oblige rien tant que ça te paraît clair pour toi.**
 - Créé un composant `Section` qui reprendra cette partie de template `<section id="exercice1" className="my-5">...</section>` sans les noeuds enfants
   - `id` doit provenir d'une propriété du composant
   - les noeuds enfants d'une section doit provenir d'une propriété `children` du composant
@@ -64,7 +64,6 @@ Dans `App.tsx` :
 
 ```tsx
 <Section id="exercice1">
-  <h1>Boutique d'Archibald le Sorcier 🧙‍♂️</h1>
   <BienvenueAventurier title="Boutique d'Archibald le Sorcier 🧙‍♂️">
     <p>
       Bienvenue <b>Aventurier</b>, ici vous pouvez acheter diverses
